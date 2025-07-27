@@ -28,7 +28,7 @@
 
 ### Решение 1.
 
-![Решение 1](https://github.com/noisy441/ELK/blob/main/img/img1.png)
+![Решение 1](https://github.com/noisy441/RabbitMQ/blob/main/img/img1.png)
 
 ---
 
@@ -57,9 +57,9 @@ $ pip install pika
 
 В скриптах routing_key="test_q" а значит название очереди будет test_q. Что бы очередь называлась hello  я изменил этот параметр. Так же изменил сообщение, исправив в нем название группы.
 
-![Решение 2](https://github.com/noisy441/ELK/blob/main/img/img2.png)
+![Решение 2](https://github.com/noisy441/RabbitMQ/blob/main/img/img2.png)
 
-![Решение 2](https://github.com/noisy441/ELK/blob/main/img/img2.png)
+![Решение 2](https://github.com/noisy441/RabbitMQ/blob/main/img/img2.png)
 
 ---
 
@@ -100,29 +100,29 @@ $ rabbitmqadmin get queue='hello'
 
 ### Решение 3.
 
-![Решение 3](https://github.com/noisy441/ELK/blob/main/img/img4.png)
+![Решение 3](https://github.com/noisy441/RabbitMQ/blob/main/img/img4.png)
 
-![Решение 3](https://github.com/noisy441/ELK/blob/main/img/img5.png)
+![Решение 3](https://github.com/noisy441/RabbitMQ/blob/main/img/img5.png)
 
 вывод команды $ rabbitmqctl cluster_status с двух нод
 
-![Решение 3](https://github.com/noisy441/ELK/blob/main/img/img6.png)
+![Решение 3](https://github.com/noisy441/RabbitMQ/blob/main/img/img6.png)
 
-![Решение 3](https://github.com/noisy441/ELK/blob/main/img/img7.png)
+![Решение 3](https://github.com/noisy441/RabbitMQ/blob/main/img/img7.png)
 
 результат выполнения команды $ rabbitmqadmin get queue='hello' на каждой из нод
 
-![Решение 3](https://github.com/noisy441/ELK/blob/main/img/img8.png)
+![Решение 3](https://github.com/noisy441/RabbitMQ/blob/main/img/img8.png)
 
-![Решение 3](https://github.com/noisy441/ELK/blob/main/img/img9.png)
+![Решение 3](https://github.com/noisy441/RabbitMQ/blob/main/img/img9.png)
 
-![Решение 3](https://github.com/noisy441/ELK/blob/main/img/img10.png)
+![Решение 3](https://github.com/noisy441/RabbitMQ/blob/main/img/img10.png)
 
 Результат после отключения одной ноды
 
-![Решение 3](https://github.com/noisy441/ELK/blob/main/img/img11.png)
+![Решение 3](https://github.com/noisy441/RabbitMQ/blob/main/img/img11.png)
 
-![Решение 3](https://github.com/noisy441/ELK/blob/main/img/img12.png)
+![Решение 3](https://github.com/noisy441/RabbitMQ/blob/main/img/img12.png)
 
 
 ---
